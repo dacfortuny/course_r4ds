@@ -193,8 +193,10 @@ ggplot(data = diamonds) +
         fun.ymax = max,
         fun.y = median
     )
-## ???
 
+# ggplot(data = diamonds) +
+#     geom_pointrange(aes(x=cut, y=depth, stat='identity'))
+# ???
 
 # Exercice 2
 
